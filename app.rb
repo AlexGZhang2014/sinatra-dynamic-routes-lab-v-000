@@ -17,9 +17,10 @@ class App < Sinatra::Base
     @phrase = params[:phrase]
     @sentence = []
     @num.times do
-      @sentence << @phrase
+      #@sentence << @phrase
+      print @sentence, " "
     end
-    @sentence.join(" ")
+    #@sentence.join(" ")
   end
 
 end
