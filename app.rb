@@ -18,7 +18,7 @@ class App < Sinatra::Base
     @sentence = []
     @num.times do
       #@sentence << @phrase
-      print @sentence, " "
+      print "#{@sentence} "
     end
     #@sentence.join(" ")
   end
