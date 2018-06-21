@@ -27,5 +27,9 @@ class App < Sinatra::Base
     params.each_value {|word| @sentence << word}
     @sentence.join(" ")
   end
+  
+  get '/:operation/:number1/:number2'
+    
+  end
 
 end
